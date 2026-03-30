@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shelter One — Premium 1 &amp; 2 BHK Homes in Taloja, Navi Mumbai | Shelter Group</title>
+  <link rel="preload" as="image" href="images/hero-evening.webp">
+  <link rel="preload" as="image" href="images/hero-evening.webp">
+  <link rel="preload" as="image" href="images/hero-day.webp">
+  <link rel="preload" as="image" href="images/hero-front.webp">
+  <!-- SEO META TAGS -->
+  <meta name="description" content="Shelter Group — Premium residential projects in Navi Mumbai since 1999. Explore Shelter One, our latest launch in Taloja. 1 BHK & 2 BHK homes with world-class amenities.">
+  <meta name="keywords" content="Shelter Group, Navi Mumbai builder, flats in Taloja, 1 BHK 2 BHK Navi Mumbai, Shelter One, real estate Navi Mumbai, new launch Taloja">
+  <meta name="author" content="Shelter Group">
+  <meta http-equiv="Cache-Control" content="max-age=86400">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shelterbuilders.co.in/">
+  <!-- Open Graph (WhatsApp / Facebook preview) -->
+  <meta property="og:title" content="Shelter Group — Premium Homes in Navi Mumbai">
+  <meta property="og:description" content="25+ years of trusted real estate in Navi Mumbai. Now launching Shelter One in Taloja — 1 & 2 BHK homes starting at attractive prices.">
+  <meta property="og:image" content="https://shelterbuilders.co.in/images/hero-evening.webp">
+  <meta property="og:url" content="https://shelterbuilders.co.in/shelter-one.html">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shelter Group — Premium Homes in Navi Mumbai">
+  <meta name="twitter:description" content="25+ years of trusted real estate in Navi Mumbai. Now launching Shelter One in Taloja.">
+  <meta name="twitter:image" content="https://shelterbuilders.co.in/images/hero-evening.webp">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--gold:#C8971A;--gold-lt:#E4B84A;--dark:#0C0A06;--dark2:#141209;--dark3:#1E1B11;--cream:#FAF6EC}
+html{scroll-behavior:smooth}
+body{background:var(--dark);color:var(--cream);font-family:'Outfit',sans-serif;overflow-x:hidden}
+::-webkit-scrollbar{width:3px}::-webkit-scrollbar-thumb{background:var(--gold)}
+
+/* FLOAT */
+.fab{position:fixed;bottom:2rem;right:2rem;z-index:999;background:var(--gold);color:var(--dark);padding:.85rem 1.5rem;font-size:.68rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;animation:pulse 2.5s ease-in-out infinite;transition:transform .2s}
+.fab:hover{transform:translateY(-3px);background:var(--gold-lt)}
+@keyframes pulse{0%,100%{box-shadow:0 8px 30px rgba(200,151,26,.4)}50%{box-shadow:0 8px 50px rgba(200,151,26,.7)}}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:center;justify-content:space-between;padding:1.2rem 5%;transition:all .4s}
+nav.scrolled{background:rgba(12,10,6,.96);backdrop-filter:blur(16px);border-bottom:1px solid rgba(200,151,26,.12);padding:.9rem 5%}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo{height:72px;width:auto;display:block;object-fit:contain;background:#fff;padding:6px 14px;border-radius:5px}
+@media(max-width:768px){.nav-logo{height:72px;width:auto;display:block;object-fit:contain;background:#fff;padding:6px 14px;border-radius:5px}}
+.nlinks{display:flex;gap:2rem;list-style:none;align-items:center}
+.nlinks a{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;color:rgba(250,246,236,.65);text-decoration:none;transition:color .2s}
+.nlinks a:hover,.nlinks a.act{color:var(--gold)}
+.ncta{background:var(--gold)!important;color:var(--dark)!important;padding:.6rem 1.3rem!important;font-weight:700!important}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none}
+.hbg span{width:22px;height:2px;background:var(--cream);display:block}
+
+/* HERO */
+.hero{position:relative;height:100vh;min-height:700px;overflow:hidden}
+/* ── HERO IMAGE CYCLING ── */
+.hbg-slide{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center 30%;
+  opacity:0;transition:opacity 1.2s ease-in-out;
+  display:block;
+}
+.hbg-slide.active{opacity:1;z-index:1}
+.hov{position:absolute;inset:0;z-index:2}
+
+
+
+.hov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,10,6,.45) 0%,rgba(12,10,6,.2) 40%,rgba(12,10,6,.75) 80%,rgba(12,10,6,.97) 100%),linear-gradient(90deg,rgba(12,10,6,.7) 0%,transparent 60%)}
+.hbody{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 6% 6rem;max-width:800px}
+.hpill{display:inline-flex;align-items:center;gap:8px;background:rgba(200,151,26,.15);border:1px solid rgba(200,151,26,.35);padding:.45rem 1.1rem;margin-bottom:1.6rem;font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600;opacity:0;animation:fup .7s .4s forwards}
+.dot{width:6px;height:6px;background:var(--gold);border-radius:50%;animation:blink 1.5s infinite;display:inline-block}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hh1{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6.5vw,7.5rem);font-weight:300;line-height:1;letter-spacing:-.02em;margin-bottom:1.4rem;opacity:0;animation:fup .9s .6s forwards}
+.hh1 em{font-style:italic;color:var(--gold)}
+.hh1 strong{font-weight:700;display:block}
+.hsub{font-size:clamp(.82rem,1.2vw,1rem);line-height:1.85;color:rgba(250,246,236,.65);max-width:560px;margin-bottom:2.8rem;opacity:0;animation:fup .9s .8s forwards}
+.hact{display:flex;gap:1rem;flex-wrap:wrap;opacity:0;animation:fup .9s 1s forwards}
+.bg{display:inline-block;text-decoration:none;background:var(--gold);color:var(--dark);padding:.95rem 2.4rem;font-size:.7rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;border:none;cursor:pointer;font-family:'Outfit',sans-serif;transition:all .25s}
+.bg:hover{background:var(--gold-lt);transform:translateY(-2px)}
+.bo{display:inline-block;text-decoration:none;background:transparent;color:var(--cream);border:1px solid rgba(250,246,236,.3);padding:.95rem 2.4rem;font-size:.7rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;font-family:'Outfit',sans-serif;transition:all .25s}
+.bo:hover{border-color:var(--gold);color:var(--gold)}
+.hstats{position:absolute;right:6%;bottom:5rem;z-index:3;display:flex;border:1px solid rgba(200,151,26,.15);opacity:0;animation:fup .9s 1.2s forwards}
+.hs{padding:1.4rem 2rem;text-align:center;border-right:1px solid rgba(200,151,26,.15);background:rgba(12,10,6,.7);backdrop-filter:blur(8px)}
+.hs:last-child{border-right:none}
+.hsn{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:700;color:var(--gold);line-height:1}
+.hsl{font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,246,236,.45);margin-top:.3rem}
+.hscr{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:8px;opacity:0;animation:fup .7s 1.4s forwards}
+.smou{width:24px;height:38px;border:2px solid rgba(200,151,26,.4);border-radius:12px;display:grid;place-items:start center;padding-top:6px}
+.sdot{width:4px;height:8px;background:var(--gold);border-radius:2px;animation:sd 1.8s infinite}
+@keyframes sd{0%{transform:translateY(0);opacity:1}100%{transform:translateY(14px);opacity:0}}
+.stxt{font-size:.52rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(250,246,236,.3)}
+@keyframes fup{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+
+/* TICKER */
+.ticker{background:var(--gold);overflow:hidden;padding:.8rem 0}
+.tt{display:flex;white-space:nowrap;animation:tk 22s linear infinite}
+.ti{font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;color:var(--dark);font-weight:700;padding:0 2rem}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* SHARED */
+.stag{font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-weight:600;display:block;margin-bottom:1rem}
+.st{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3.8rem);font-weight:300;line-height:1.1;margin-bottom:1.5rem}
+.st em{font-style:italic;color:var(--gold)}
+.sdv{width:50px;height:2px;background:linear-gradient(90deg,var(--gold),transparent);margin-bottom:1.8rem}
+.sp{font-size:.88rem;line-height:2;color:rgba(250,246,236,.55)}
+.rv{opacity:0;transform:translateY(35px);transition:opacity .85s,transform .85s}
+.rv.vis{opacity:1;transform:none}
+.tl{display:flex;flex-direction:column;gap:0;padding-left:.5rem;border-left:2px solid rgba(200,151,26,.18)}
+.tli{display:flex;gap:1.5rem;padding:1.1rem 0 1.1rem 1.5rem;position:relative}
+.tli::before{content:'';position:absolute;left:-6px;top:1.6rem;width:10px;height:10px;border-radius:50%;background:rgba(200,151,26,.15);border:2px solid rgba(200,151,26,.3);transition:all .3s}
+.tli.vis::before,.tli:hover::before{background:var(--gold);box-shadow:0 0 12px rgba(200,151,26,.5)}
+.tly{font-family:'Cormorant Garamond',serif;font-size:.95rem;font-weight:700;color:var(--gold);min-width:75px;padding-top:.15rem}
+.tlt{font-size:.78rem;font-weight:600;color:var(--cream);margin-bottom:.3rem}
+.tld{font-size:.72rem;color:rgba(250,246,236,.4);line-height:1.75}
+.d1{transition-delay:.1s}.d2{transition-delay:.22s}.d3{transition-delay:.36s}
+
+/* ABOUT */
+.abt{display:grid;grid-template-columns:1fr 1fr;gap:7rem;align-items:center;padding:7rem 6%;background:var(--dark)}
+.astg{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(200,151,26,.08);margin-top:2.5rem}
+.asti{background:var(--dark);padding:1.6rem;transition:background .3s}
+.asti:hover{background:rgba(200,151,26,.06)}
+.astn{font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:700;color:var(--gold);line-height:1}
+.astl{font-size:.65rem;color:rgba(250,246,236,.4);letter-spacing:.1em;margin-top:.3rem}
+.aiw{position:relative}
+.ai{overflow:hidden;cursor:pointer}
+.ai img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:brightness(.82) saturate(.9);transition:transform .7s}
+.ai:hover img{transform:scale(1.04)}
+.abadge{position:absolute;bottom:-1.2rem;left:-1.2rem;background:var(--gold);padding:1.4rem 1.8rem}
+.abig{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:700;color:var(--dark);line-height:1}
+.asm{font-size:.58rem;letter-spacing:.15em;color:var(--dark);opacity:.65;margin-top:.2rem}
+.acor{position:absolute;top:-1.2rem;right:-1.2rem;width:70px;height:70px;border:2px solid rgba(200,151,26,.3)}
+
+/* SHELTER ONE */
+.s1s{background:var(--dark2);border-top:1px solid rgba(200,151,26,.08)}
+
+
+
+.s1i:hover img{filter:brightness(1);transform:scale(1.03)}
+
+
+.s1b{padding:5rem 6%;display:grid;grid-template-columns:1.1fr 1fr;gap:5rem;align-items:start}
+.nwbdg{background:var(--gold);color:var(--dark);font-size:.52rem;letter-spacing:.25em;text-transform:uppercase;font-weight:700;padding:.4rem .9rem;display:inline-block;margin-bottom:1.2rem}
+.hls{margin:2rem 0;display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.hl{display:flex;align-items:center;gap:.65rem;padding:.65rem .8rem;background:rgba(200,151,26,.04);border:1px solid rgba(200,151,26,.08);transition:all .2s}
+.hl:hover{background:rgba(200,151,26,.08);border-color:rgba(200,151,26,.2)}
+.hli{font-size:1rem;width:28px;text-align:center;flex-shrink:0}
+.hlt{font-size:.72rem;color:rgba(250,246,236,.7)}
+.spcs{background:var(--dark3);padding:2rem}
+.spct{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+.spcr{display:flex;justify-content:space-between;padding:.8rem 0;border-bottom:1px solid rgba(200,151,26,.06)}
+.spcr:last-child{border-bottom:none}
+.spck{font-size:.7rem;color:rgba(250,246,236,.4)}
+.spcv{font-size:.78rem;color:var(--cream);font-weight:500}
+
+/* AMENITIES */
+.amns{background:var(--dark);padding:7rem 6%}
+.amiw{position:relative;overflow:hidden;margin:3rem 0 4rem;height:380px}
+.amig{width:100%;height:100%;object-fit:cover;filter:brightness(.7) saturate(.85)}
+.amov{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,10,6,.85) 0%,rgba(12,10,6,.4) 50%,rgba(12,10,6,.2) 100%);display:flex;align-items:center;padding:0 5%}
+.amcap{max-width:400px}
+.amct{font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;line-height:1.15;margin-bottom:.8rem}
+.amct em{color:var(--gold);font-style:italic}
+.amcs{font-size:.78rem;color:rgba(250,246,236,.55);line-height:1.8}
+.amgd{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(200,151,26,.06)}
+.amc{background:var(--dark);padding:2.2rem 1.6rem;text-align:center;transition:all .3s;border:1px solid transparent}
+.amc:hover{background:rgba(200,151,26,.05);border-color:rgba(200,151,26,.12);transform:translateY(-5px)}
+.amci{font-size:1.8rem;margin-bottom:.9rem;display:block}
+.amcn{font-size:.78rem;font-weight:600;color:var(--cream);margin-bottom:.3rem}
+.amcd{font-size:.65rem;color:rgba(250,246,236,.38);line-height:1.6}
+
+/* BROCHURE */
+.brs{padding:7rem 6%;background:var(--dark2);position:relative;overflow:hidden;border-top:1px solid rgba(200,151,26,.08);border-bottom:1px solid rgba(200,151,26,.08)}
+.brs::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 80% 50%,rgba(200,151,26,.07),transparent 55%);pointer-events:none}
+.bri{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center;position:relative;z-index:1}
+.pdfrow{display:flex;align-items:center;gap:1rem;margin-bottom:2rem}
+.pdfbdg{width:64px;height:80px;background:var(--gold);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;flex-shrink:0;position:relative}
+.pdfbdg::after{content:'';position:absolute;top:0;right:0;border-left:14px solid var(--dark2);border-bottom:14px solid rgba(0,0,0,.2)}
+.pdft{font-size:.55rem;font-weight:800;letter-spacing:.15em;color:var(--dark)}
+.pdfs{font-size:.42rem;letter-spacing:.2em;color:var(--dark);opacity:.7;text-transform:uppercase}
+.pdfn{font-size:.78rem;font-weight:600;color:var(--cream);margin-bottom:.3rem}
+.pdfsz{font-size:.65rem;color:rgba(250,246,236,.35)}
+.pdfpg{display:flex;gap:1.5rem;margin:2rem 0;flex-wrap:wrap}
+.ppg{display:flex;align-items:center;gap:.6rem;font-size:.7rem;color:rgba(250,246,236,.5)}
+.ppg::before{content:'✦';color:var(--gold);font-size:.5rem}
+.pvbox{padding:1.5rem;background:rgba(200,151,26,.06);border-left:3px solid var(--gold)}
+.pvbox p{font-size:.75rem;color:rgba(250,246,236,.5);line-height:1.8}
+.fcard{background:var(--dark3);border:1px solid rgba(200,151,26,.15);padding:3rem;position:relative}
+.fcard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-lt),var(--gold))}
+.fh{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:600;color:var(--cream);margin-bottom:.5rem;line-height:1.2}
+.fh em{font-style:italic;color:var(--gold)}
+.fsub{font-size:.75rem;color:rgba(250,246,236,.4);margin-bottom:2rem;line-height:1.7}
+.fg{margin-bottom:1.2rem;position:relative}
+.fg label{display:block;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,246,236,.4);margin-bottom:.5rem;font-weight:500}
+.fg input,.fg select{width:100%;background:rgba(250,246,236,.04);border:1px solid rgba(200,151,26,.15);color:var(--cream);padding:.85rem 1rem;font-family:'Outfit',sans-serif;font-size:.82rem;outline:none;transition:all .25s;appearance:none}
+.fg input::placeholder{color:rgba(250,246,236,.2)}
+.fg input:focus,.fg select:focus{border-color:var(--gold);background:rgba(200,151,26,.05)}
+.fg select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23C8971A' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center;background-color:rgba(250,246,236,.04)}
+.fg select option{background:var(--dark3)}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.ferr{font-size:.65rem;color:#ff6b6b;margin-top:.4rem;display:none}
+.ferr.show{display:block}
+.fcon{display:flex;align-items:flex-start;gap:.8rem;margin-bottom:1.5rem}
+.fcon input[type=checkbox]{width:16px;height:16px;flex-shrink:0;margin-top:2px;accent-color:var(--gold);cursor:pointer}
+.fcon label{font-size:.68rem;color:rgba(250,246,236,.35);line-height:1.6;letter-spacing:0;text-transform:none}
+.fcon label a{color:var(--gold);text-decoration:none}
+.dlbtn{width:100%;background:var(--gold);color:var(--dark);border:none;padding:1.1rem;cursor:pointer;font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:.8rem;transition:all .25s}
+.dlbtn:hover{background:var(--gold-lt);transform:translateY(-2px)}
+.dlbtn:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.sucbox{display:none;flex-direction:column;align-items:center;text-align:center;padding:2rem}
+.sucbox.show{display:flex}
+.succhk{width:70px;height:70px;background:rgba(200,151,26,.12);border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:1.8rem;margin-bottom:1.5rem;animation:pop .4s ease}
+@keyframes pop{0%{transform:scale(0)}80%{transform:scale(1.1)}100%{transform:scale(1)}}
+.suct{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;color:var(--cream);margin-bottom:.5rem}
+.sucs{font-size:.78rem;color:rgba(250,246,236,.45);line-height:1.7;margin-bottom:1.5rem}
+
+/* LOCATION */
+.locs{background:var(--dark);padding:7rem 6%}
+.loci{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:start}
+.locg{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2.5rem}
+.lochd{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid rgba(200,151,26,.15)}
+.locl{list-style:none;display:flex;flex-direction:column;gap:.4rem}
+.locl li{font-size:.72rem;color:rgba(250,246,236,.55);display:flex;justify-content:space-between;padding:.2rem 0}
+.locl li span{color:var(--gold);font-weight:500;font-size:.65rem}
+.mapcard{background:var(--dark3);border:1px solid rgba(200,151,26,.1);padding:2.5rem}
+.maptitle{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:600;color:var(--cream);margin-bottom:1.5rem}
+.mapwrap{position:relative;overflow:hidden;border:1px solid rgba(200,151,26,.15)}
+.maptop{height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-lt),var(--gold))}
+.mappin{position:absolute;top:12px;left:12px;z-index:10;background:rgba(12,10,6,.88);backdrop-filter:blur(8px);border:1px solid rgba(200,151,26,.3);padding:.5rem .9rem;display:flex;align-items:center;gap:8px;pointer-events:none}
+.mappin .mn{font-size:.68rem;font-weight:700;color:var(--gold);letter-spacing:.08em}
+.mappin .ms{font-size:.55rem;color:rgba(250,246,236,.5);letter-spacing:.1em}
+.mapbtn{position:absolute;bottom:12px;right:12px;z-index:10;background:var(--gold);color:var(--dark);padding:.5rem 1rem;font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;display:flex;align-items:center;gap:6px}
+.mapbtn:hover{background:var(--gold-lt)}
+.locq{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.5rem}
+.lqi{background:rgba(200,151,26,.06);padding:1rem;border-left:2px solid var(--gold)}
+.lqn{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:700;color:var(--gold)}
+.lql{font-size:.58rem;color:rgba(250,246,236,.38);letter-spacing:.1em;margin-top:2px}
+
+/* PROJECTS */
+.prjs{background:var(--dark2);padding:7rem 6%}
+.prjg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+.pc{background:var(--dark3);border:1px solid rgba(200,151,26,.06);overflow:hidden;cursor:pointer;transition:all .35s}
+.pc:hover{border-color:rgba(200,151,26,.25);transform:translateY(-8px);box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.pciw{overflow:hidden;position:relative}
+.pcim{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;filter:brightness(.8) saturate(.85);transition:all .55s}
+.pc:hover .pcim{filter:brightness(.95) saturate(1.1);transform:scale(1.05)}
+.pcs{position:absolute;top:1rem;left:1rem;background:var(--gold);color:var(--dark);font-size:.52rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:.3rem .7rem}
+.pcs.rdy{background:rgba(60,180,80,.9);color:#fff}
+.pcb{padding:1.8rem}
+.pcn{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;color:var(--cream);margin-bottom:.35rem}
+.pcl{font-size:.7rem;color:rgba(250,246,236,.4);margin-bottom:1.2rem}
+.pct{display:inline-block;font-size:.65rem;color:rgba(250,246,236,.6);padding:.35rem .8rem;border:1px solid rgba(200,151,26,.18)}
+.pph{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:rgba(250,246,236,.15);letter-spacing:.1em}
+
+/* TESTIMONIALS */
+.tsts{background:var(--dark);padding:7rem 6%}
+.tstg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+.tc{background:var(--dark3);border:1px solid rgba(200,151,26,.06);padding:2rem;transition:all .3s}
+.tc:hover{border-color:rgba(200,151,26,.18)}
+.tcs{color:var(--gold);font-size:.8rem;margin-bottom:1rem}
+.tct{font-size:.8rem;line-height:1.9;color:rgba(250,246,236,.55);font-style:italic;margin-bottom:1.5rem}
+.tcn{font-size:.7rem;font-weight:600;color:var(--cream)}
+.tcl{font-size:.62rem;color:var(--gold);margin-top:.2rem}
+
+/* CTA */
+.ctasec{padding:8rem 6%;text-align:center;background:var(--dark2);position:relative;overflow:hidden}
+.ctasec::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50%,rgba(200,151,26,.07),transparent 65%)}
+.ctab{position:relative;z-index:1}
+.ctap{font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;display:block}
+.ctat{font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,5vw,5.5rem);font-weight:300;line-height:1.05;margin-bottom:1.5rem}
+.ctat em{font-style:italic;color:var(--gold)}
+.ctas{font-size:.9rem;color:rgba(250,246,236,.45);max-width:480px;margin:0 auto 3rem;line-height:1.9}
+.ctabs{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:4rem}
+.ctacds{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(200,151,26,.1);max-width:720px;margin:0 auto}
+.ctacd{background:var(--dark2);padding:2.2rem;text-align:center}
+.ctacdi{font-size:1.6rem;margin-bottom:.8rem;display:block}
+.ctacdl{font-size:.55rem;letter-spacing:.25em;text-transform:uppercase;color:rgba(250,246,236,.3);margin-bottom:.5rem}
+.ctacdv{font-size:.85rem;font-weight:600;color:var(--cream)}
+.ctacdv a{color:var(--gold);text-decoration:none}
+.ctacdv a:hover{text-decoration:underline}
+
+/* FOOTER */
+footer{background:var(--dark2);padding:5rem 6% 2rem;border-top:1px solid rgba(200,151,26,.08)}
+.ftg{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:4rem;padding-bottom:3rem;border-bottom:1px solid rgba(200,151,26,.07)}
+.fbn{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;letter-spacing:.12em;color:var(--cream)}
+.fbt{font-size:.52rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin:.3rem 0 1.2rem}
+.fba{font-size:.75rem;line-height:1.9;color:rgba(250,246,236,.35)}
+.fch{font-size:.72rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:1.4rem}
+.fll{list-style:none;display:flex;flex-direction:column;gap:.65rem}
+.fll a{font-size:.90rem;color:rgba(250,246,236,.4);text-decoration:none;transition:color .2s}
+.fll a:hover{color:var(--gold)}
+.fbot{display:flex;justify-content:space-between;align-items:center;padding-top:2rem;flex-wrap:wrap;gap:1rem}
+.fcpy{font-size:.74rem;color:rgba(250,246,236,.2)}
+.fdis{font-size:.72rem;color:rgba(250,246,236,.18);text-align:right;max-width:400px}
+
+/* LIGHTBOX */
+.lb{display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.95);align-items:center;justify-content:center}
+.lb.open{display:flex}
+.lb img{max-width:90vw;max-height:90vh;object-fit:contain}
+.lbc{position:absolute;top:2rem;right:2rem;background:var(--gold);border:none;color:var(--dark);width:44px;height:44px;font-size:1.3rem;cursor:pointer;display:grid;place-items:center}
+
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* RESPONSIVE */
+@media(max-width:1100px){.abt,.loci,.s1b,.bri{grid-template-columns:1fr;gap:3rem}.ftg{grid-template-columns:1fr 1fr;gap:2.5rem}}
+@media(max-width:768px){
+  .nlinks{display:none!important}.hbg{display:flex!important}
+  /* Hero stats: break out of absolute positioning, flow below buttons */
+  .hstats{
+    position:static!important;
+    right:auto!important;bottom:auto!important;
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    width:100%!important;
+    margin-top:1.5rem!important;
+    border:1px solid rgba(200,151,26,.15)!important;
+    opacity:1!important;
+    animation:none!important
+  }
+  .hs{padding:1rem 1.2rem!important}
+  .hsn{font-size:1.6rem!important}
+  /* hbody no longer needs padding-bottom to dodge the stats block */
+  .hbody{padding-bottom:2.5rem!important;justify-content:flex-end!important}
+  /* hero min-height so everything fits */
+  .hero{min-height:100svh!important;min-height:100vh!important}
+  /* scroll indicator hidden on mobile */
+  .hscr{display:none}
+  .prjg,.amgd,.tstg,.ctacds{grid-template-columns:1fr 1fr}
+  .locg,.frow{grid-template-columns:1fr}.aiw{display:none}
+  .amiw{height:250px}.ftg{grid-template-columns:1fr}
+  .abt{padding:3rem 5%!important}.s1b{padding:2.5rem 5%!important}
+  section,.prjs,.tst,.ctasec,.bri,.loci{padding-left:5%!important;padding-right:5%!important}
+  .fab{padding:.75rem 1.2rem;font-size:.62rem}
+}
+@media(max-width:540px){
+  .prjg,.tstg,.amgd,.ctacds{grid-template-columns:1fr}
+  .hstats{gap:0}.hstat{flex:0 0 50%}
+  .bfrm{padding:2rem 1.5rem!important}
+  .ftg{grid-template-columns:1fr!important}
+  .fbtns{flex-direction:column;align-items:stretch}
+  .fbtns .bg,.fbtns .bo{text-align:center;width:100%}
+}
+.mob-nav{display:none;position:fixed;top:62px;left:0;right:0;z-index:490;background:rgba(12,10,6,.98);backdrop-filter:blur(20px);border-bottom:1px solid rgba(200,151,26,.15);padding:1.5rem 6% 2rem;flex-direction:column;gap:0;max-height:calc(100vh - 62px);overflow-y:auto}
+.mob-nav.open{display:flex!important}
+.mob-nav a{font-size:.88rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(250,246,236,.6);text-decoration:none;padding:.9rem 0;border-bottom:1px solid rgba(200,151,26,.06);display:block;transition:color .2s}
+.mob-nav a:hover{color:var(--gold)}
+.mob-nav .mn-cta{background:var(--gold);color:var(--dark)!important;font-weight:700;text-align:center;margin-top:.5rem;border:none!important}
+
+
+/* ── HERO SLIDER ── */
+.hs-wrap{position:relative;width:100%;height:320px;overflow:hidden;background:#0C0A06;border-radius:8px}
+.hs-track{display:flex;height:100%;transition:transform .6s cubic-bezier(.4,0,.2,1)}
+.hs-slide{min-width:100%;width:100%;height:100%;flex-shrink:0;position:relative;display:flex;align-items:center;justify-content:center;background:#0C0A06}
+.hs-slide img{width:100%;height:100%;display:block;object-fit:contain;background:#0C0A06}
+.hs-lbl{position:absolute;bottom:0;left:0;right:0;padding:.6rem 1rem;background:linear-gradient(transparent,rgba(12,10,6,.75));color:rgba(250,246,236,.75);font-size:.62rem;letter-spacing:.15em;text-transform:uppercase}
+.hs-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(12,10,6,.6);border:2px solid rgba(200,151,26,.7);color:var(--gold);width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10;font-size:1.5rem;transition:background .2s;user-select:none;line-height:1}
+.hs-btn:hover{background:rgba(200,151,26,.5)}
+.hs-prev{left:10px}.hs-next{right:10px}
+.hs-dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:2}
+.hs-dot{width:6px;height:6px;border-radius:50%;background:rgba(250,246,236,.35);cursor:pointer;transition:background .2s,transform .2s}
+.hs-dot.act{background:var(--gold);transform:scale(1.3)}
+/* ── GALLERY GRID ── */
+
+/* ══ GALLERY SHOWCASE ══ */
+.gal-section{padding:5rem 6%;background:var(--dark2);position:relative}
+.gal-section::before{content:'';position:absolute;top:0;left:6%;right:6%;height:1px;background:linear-gradient(90deg,transparent,rgba(200,151,26,.4),transparent)}
+.gal-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:2.5rem;flex-wrap:wrap;gap:1rem}
+.gal-title{font-family:'Cormorant Garamond',serif;font-size:2.4rem;color:var(--cream);margin:0}
+.gal-sub{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+.gal-view-btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:transparent;border:1px solid rgba(200,151,26,.5);
+  color:var(--gold);font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;
+  padding:.65rem 1.4rem;cursor:pointer;font-family:'Outfit',sans-serif;
+  transition:all .25s;text-decoration:none;
+}
+.gal-view-btn:hover{background:rgba(200,151,26,.1);border-color:var(--gold)}
+.gal-view-btn svg{transition:transform .3s}
+.gal-view-btn:hover svg{transform:translateX(3px)}
+
+/* Showcase container */
+.gal-showcase{
+  position:relative;width:100%;max-width:900px;margin:0 auto;
+  aspect-ratio:16/9;overflow:hidden;border-radius:10px;
+  background:#0C0A06;box-shadow:0 20px 60px rgba(0,0,0,.6);
+  cursor:pointer;
+}
+.gal-showcase-img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;opacity:0;
+  transition:opacity 1s ease, transform 6s ease;
+  transform:scale(1.04);
+}
+.gal-showcase-img.active{opacity:1;transform:scale(1)}
+/* Overlay gradient */
+.gal-showcase-overlay{
+  position:absolute;inset:0;z-index:1;
+  background:linear-gradient(to top, rgba(12,10,6,.75) 0%, transparent 45%);
+  pointer-events:none;
+}
+/* Bottom info bar */
+.gal-showcase-bar{
+  position:absolute;bottom:0;left:0;right:0;z-index:2;
+  padding:1.2rem 1.6rem;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.gal-showcase-lbl{
+  font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,246,236,.85);
+}
+.gal-showcase-count{
+  font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:rgba(200,151,26,.7);
+}
+/* Dot nav */
+.gal-dots{
+  display:flex;gap:6px;position:absolute;bottom:1.2rem;left:50%;transform:translateX(-50%);z-index:3;
+}
+.gal-dot{
+  width:5px;height:5px;border-radius:50%;background:rgba(250,246,236,.3);
+  cursor:pointer;transition:all .3s;border:none;padding:0;
+}
+.gal-dot.act{background:var(--gold);transform:scale(1.4)}
+/* Prev/next arrows */
+.gal-arr{
+  position:absolute;top:50%;transform:translateY(-50%);z-index:3;
+  background:rgba(12,10,6,.55);border:1px solid rgba(200,151,26,.35);
+  color:var(--gold);width:40px;height:40px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;font-size:1.2rem;transition:all .25s;user-select:none;
+  opacity:0;transition:opacity .3s;
+}
+.gal-showcase:hover .gal-arr{opacity:1}
+.gal-arr:hover{background:rgba(200,151,26,.25);border-color:var(--gold)}
+.gal-arr.prev{left:14px}
+.gal-arr.next{right:14px}
+/* Progress bar */
+.gal-progress{
+  position:absolute;bottom:0;left:0;height:2px;z-index:4;
+  background:var(--gold);width:0%;transition:width linear;
+}
+/* Thumbnail strip */
+.gal-thumbs{
+  display:flex;gap:6px;margin-top:12px;overflow-x:auto;
+  scrollbar-width:none;-ms-overflow-style:none;
+}
+.gal-thumbs::-webkit-scrollbar{display:none}
+.gal-thumb{
+  flex-shrink:0;width:70px;height:48px;overflow:hidden;
+  border-radius:4px;cursor:pointer;opacity:.45;
+  transition:opacity .3s,transform .3s;border:1px solid transparent;
+}
+.gal-thumb:hover{opacity:.75}
+.gal-thumb.act{opacity:1;border-color:var(--gold);transform:scale(1.05)}
+.gal-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* Fullscreen lightbox grid */
+.gal-lb{
+  position:fixed;inset:0;z-index:9999;background:rgba(12,10,6,.96);
+  display:none;flex-direction:column;
+}
+.gal-lb.open{display:flex}
+.gal-lb-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1.2rem 6%;border-bottom:1px solid rgba(200,151,26,.12);
+}
+.gal-lb-title{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:var(--cream)}
+.gal-lb-close{
+  background:none;border:1px solid rgba(250,246,236,.2);color:var(--cream);
+  width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:1.1rem;
+  display:flex;align-items:center;justify-content:center;transition:all .2s;
+}
+.gal-lb-close:hover{border-color:var(--gold);color:var(--gold)}
+.gal-lb-grid{
+  flex:1;overflow-y:auto;padding:2rem 6%;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:8px;align-content:start;
+}
+@media(max-width:768px){.gal-lb-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.gal-lb-grid{grid-template-columns:1fr}}
+.gal-lb-item{
+  aspect-ratio:4/3;overflow:hidden;border-radius:6px;cursor:pointer;
+  position:relative;
+}
+.gal-lb-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s,filter .5s;filter:brightness(.82)}
+.gal-lb-item:hover img{transform:scale(1.06);filter:brightness(1)}
+.gal-lb-item-lbl{
+  position:absolute;bottom:0;left:0;right:0;
+  padding:.5rem .8rem;background:linear-gradient(transparent,rgba(12,10,6,.85));
+  color:rgba(250,246,236,.8);font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;
+  opacity:0;transition:opacity .3s;
+}
+.gal-lb-item:hover .gal-lb-item-lbl{opacity:1}
+@media(max-width:768px){
+  .gal-showcase{aspect-ratio:4/3}
+  .gal-header{flex-direction:column;align-items:flex-start}
+}
+
+/* ══ MOBILE FIXES ══ */
+html,body{overflow-x:hidden;max-width:100%}
+@media(max-width:768px){
+  /* Hero stats — 2x2 grid instead of 1 row */
+  .hstats{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    width:100%!important;
+    max-width:100%!important;
+    gap:.6rem!important;
+    position:static!important;
+    margin-top:1.2rem!important;
+  }
+  .hs{padding:.6rem!important}
+  .hsn{font-size:1.4rem!important}
+  .hsl{font-size:.52rem!important}
+  /* Amenities grid — 2 cols on mobile */
+  .amgd{grid-template-columns:1fr 1fr!important}
+  /* Gallery — 2 cols on mobile */
+  .gal-grid{grid-template-columns:1fr 1fr!important}
+  /* Testimonials */
+  .tstg{grid-template-columns:1fr!important}
+  /* Project cards */
+  .prjg{grid-template-columns:1fr!important}
+  /* CTA cards */
+  .ctacds{grid-template-columns:1fr!important}
+  /* Contact section */
+  .ctas{font-size:.85rem!important}
+  /* About image on mobile */
+  .abt{grid-template-columns:1fr!important}
+  /* Spec table */
+  .spcs{font-size:.75rem!important}
+  /* Location section */
+  .loci{grid-template-columns:1fr!important}
+}
+@media(max-width:480px){
+  /* Gallery single col */
+  .gal-grid{grid-template-columns:1fr!important}
+  /* Amenities single col */
+  .amgd{grid-template-columns:1fr!important}
+  /* Hero h1 smaller */
+  .hh1{font-size:2rem!important}
+}
+
+
+/* ════ MULTI-STEP FORM ════ */
+.msf-wrap{background:rgba(250,246,236,.02);border:1px solid rgba(200,151,26,.15);border-radius:12px;padding:2.5rem 2.8rem;position:relative;overflow:hidden}
+.msf-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.msf-progress{display:flex;align-items:center;gap:0;margin-bottom:2.2rem}
+.msf-step-dot{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.58rem;font-weight:700;font-family:'Outfit',sans-serif;border:1.5px solid rgba(200,151,26,.3);color:rgba(200,151,26,.4);transition:all .35s;flex-shrink:0;position:relative;z-index:1;background:var(--dark2)}
+.msf-step-dot.done{background:var(--gold);border-color:var(--gold);color:var(--dark)}
+.msf-step-dot.active{border-color:var(--gold);color:var(--gold);box-shadow:0 0 0 3px rgba(200,151,26,.15)}
+.msf-step-line{flex:1;height:1px;background:rgba(200,151,26,.15);transition:background .35s}
+.msf-step-line.done{background:var(--gold)}
+.msf-panel{display:none}
+.msf-panel.active{display:block;animation:msfIn .3s ease}
+@keyframes msfIn{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:translateX(0)}}
+.msf-step-label{font-size:.55rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}
+.msf-step-title{font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--cream);font-weight:300;margin-bottom:1.6rem;line-height:1.2}
+.msf-input{width:100%;background:transparent;border:none;border-bottom:1px solid rgba(200,151,26,.2);color:var(--cream);padding:.8rem 0;font-size:.95rem;font-family:'Outfit',sans-serif;outline:none;transition:border-color .2s;box-sizing:border-box;display:block}
+.msf-input:focus{border-color:var(--gold)}
+.msf-input::placeholder{color:rgba(250,246,236,.2);font-size:.82rem}
+.msf-input-wrap{margin-bottom:1.4rem;position:relative}
+.msf-input-wrap label{font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(250,246,236,.35);display:block;margin-bottom:.3rem}
+.msf-chips{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1.4rem}
+.msf-chip{padding:.55rem 1.2rem;border:1px solid rgba(200,151,26,.2);color:rgba(250,246,236,.5);font-size:.72rem;font-family:'Outfit',sans-serif;cursor:pointer;border-radius:30px;transition:all .2s;background:transparent;letter-spacing:.04em}
+.msf-chip:hover{border-color:rgba(200,151,26,.5);color:rgba(200,151,26,.8)}
+.msf-chip.sel{background:rgba(200,151,26,.12);border-color:var(--gold);color:var(--gold)}
+.msf-btn-row{display:flex;gap:.8rem;align-items:center;margin-top:1.8rem}
+.msf-next{background:var(--gold);color:var(--dark);border:none;padding:.85rem 2rem;font-size:.65rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;font-family:'Outfit',sans-serif;transition:background .2s,transform .15s;border-radius:3px;display:flex;align-items:center;gap:.5rem}
+.msf-next:hover{background:var(--gold-lt);transform:translateX(2px)}
+.msf-back{background:transparent;color:rgba(250,246,236,.35);border:none;font-size:.65rem;cursor:pointer;font-family:'Outfit',sans-serif;padding:.85rem .5rem;transition:color .2s;letter-spacing:.1em;text-transform:uppercase}
+.msf-back:hover{color:var(--cream)}
+.msf-err{color:#ff6b6b;font-size:.7rem;margin-top:.4rem;display:none}
+.msf-success{text-align:center;padding:2.5rem 1rem;display:none}
+.msf-success-ico{font-size:2.5rem;margin-bottom:1rem}
+.msf-success-title{font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--cream);margin-bottom:.5rem}
+.msf-success-sub{font-size:.8rem;color:rgba(250,246,236,.45);margin-bottom:1.5rem;line-height:1.7}
+@media(max-width:480px){.msf-wrap{padding:1.8rem 1.4rem}.msf-chips{gap:.4rem}.msf-chip{font-size:.65rem;padding:.5rem .9rem}}
+
+</style>
+
+</head>
+
+<body>
+<form name="shelter-enquiry" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name"><input type="tel" name="phone">
+  <input type="text" name="project"><input type="text" name="config">
+  <input type="text" name="budget"><input type="text" name="timeline">
+</form>
+<form name="shelter-one-lead" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name">
+  <input type="tel" name="phone">
+  <input type="email" name="email">
+  <input type="hidden" name="project" value="Shelter One">
+  <input type="hidden" name="source" value="Brochure Download">
+</form>
+<nav id="nav">
+  <a href="index.html" class="nl">
+    <img src="images/shelter-logo.png" alt="Shelter Group" class="nav-logo">
+  </a>
+  <ul class="nlinks" id="nl">
+    <li><a href="index.html">&#8592; Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#overview">Shelter One</a></li>
+    <li><a href="#amenities">Amenities</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#brochure">Brochure</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="#contact" class="ncta">Enquire Now</a></li>
+  </ul>
+  <button class="hbg" onclick="toggleNav()"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="hero" id="home">
+  <img class="hbg-slide active" src="images/hero-evening.webp" alt="Shelter One Evening View" fetchpriority="high" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:1;transition:opacity 1.2s ease-in-out;display:block;z-index:1;">
+  <img class="hbg-slide" src="images/hero-day.webp" alt="Shelter One Day View" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <img class="hbg-slide" src="images/hero-aerial.webp" alt="Shelter One Aerial View" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <img class="hbg-slide" src="images/hero-front.webp" alt="Shelter One Front" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <img class="hbg-slide" src="images/hero-aerial-right.webp" alt="Shelter One Right Wing" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <img class="hbg-slide" src="images/hero-ground.webp" alt="Shelter One Ground" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <img class="hbg-slide" src="images/hero-podium-garden.webp" alt="Shelter One Podium" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <img class="hbg-slide" src="images/hero-swimming.webp" alt="Shelter One Pool" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <img class="hbg-slide" src="images/hero-gazebo.webp" alt="Shelter One Gazebo" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block;">
+  <div class="hov"></div>
+  <div class="hbody">
+    <div class="hpill"><span class="dot"></span>New Launch &middot; Taloja Phase 2 &middot; Navi Mumbai</div>
+    <h1 class="hh1"><em>Shelter One</em><strong>Premium Homes</strong></h1>
+    <p class="hsub">Spacious 1 BHK &amp; 2 BHK residences by Shelter Group &mdash; Navi Mumbai&rsquo;s trusted builder since 1999. Crafted with elegance, set amidst 50% open space with resort-style amenities.</p>
+    <div class="hact">
+      <a href="#overview" class="bg">Explore Project</a>
+      <a href="#brochure" class="bo">&#x2B07; Download Brochure</a>
+    </div>
+  </div>
+  <div class="hstats">
+    <div class="hs"><div class="hsn">25+</div><div class="hsl">Years</div></div>
+    <div class="hs"><div class="hsn">1 &amp; 2</div><div class="hsl">BHK Types</div></div>
+    <div class="hs"><div class="hsn">50%</div><div class="hsl">Open Space</div></div>
+    <div class="hs"><div class="hsn">21+</div><div class="hsl">Floors</div></div>
+  </div>
+  <div class="hscr"><div class="smou"><div class="sdot"></div></div></div>
+</div>
+
+
+
+<section class="s1s" id="overview">
+
+  <div class="s1b">
+    <div class="rv">
+      <span class="nwbdg">&#127959; New Launch</span>
+      <h2 class="st" style="margin-bottom:1rem">Shelter <em>One</em></h2>
+      <p style="font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,246,236,.4);margin-bottom:1.5rem">Taloja Phase 2, Navi Mumbai</p>
+      <div class="sdv"></div>
+      <p class="sp" style="margin-bottom:1rem">A landmark residential project offering premium 1 BHK &amp; 2 BHK homes in one of Navi Mumbai&rsquo;s fastest growing corridors, with 50% open landscaped spaces.</p>
+      <div class="hls">
+        <div class="hl"><span class="hli">&#127946;</span><span class="hlt">Swimming Pool + Kids Pool</span></div>
+        <div class="hl"><span class="hli">&#127947;</span><span class="hlt">Equipped Gymnasium</span></div>
+        <div class="hl"><span class="hli">&#127807;</span><span class="hlt">Landscaped Garden</span></div>
+        <div class="hl"><span class="hli">&#127968;</span><span class="hlt">Club House</span></div>
+        <div class="hl"><span class="hli">&#127904;</span><span class="hlt">Children&rsquo;s Play Park</span></div>
+        <div class="hl"><span class="hli">&#127939;</span><span class="hlt">Jogging Track</span></div>
+        <div class="hl"><span class="hli">&#127951;</span><span class="hlt">Net Cricket</span></div>
+        <div class="hl"><span class="hli">&#128249;</span><span class="hlt">CCTV Surveillance</span></div>
+        <div class="hl"><span class="hli">&#9889;</span><span class="hlt">Power Backup</span></div>
+        <div class="hl"><span class="hli">&#128274;</span><span class="hlt">Video Door Phone</span></div>
+        <div class="hl"><span class="hli">&#128663;</span><span class="hlt">Ample Parking</span></div>
+        <div class="hl"><span class="hli">&#127795;</span><span class="hlt">50% Open Space</span></div>
+      </div>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:.5rem">
+        <a href="#contact" class="bg">Book Site Visit</a>
+        <a href="#brochure" class="bo">&#x2B07; Download Brochure</a>
+      </div>
+    </div>
+    <div class="rv d2">
+      <div class="spcs">
+        <div class="spct">Project Specifications</div>
+        <div class="spcr"><span class="spck">Project Name</span><span class="spcv">Shelter One</span></div>
+        <div class="spcr"><span class="spck">Configuration</span><span class="spcv">1 BHK &amp; 2 BHK</span></div>
+        <div class="spcr"><span class="spck">Location</span><span class="spcv">Taloja Phase 2</span></div>
+        <div class="spcr"><span class="spck">Open Space</span><span class="spcv">50% of Total Area</span></div>
+        <div class="spcr"><span class="spck">Developer</span><span class="spcv">Shelter Group</span></div>
+        <div class="spcr"><span class="spck">Status</span><span class="spcv" style="color:var(--gold)">New Launch</span></div>
+        <div class="spcr"><span class="spck">Wings</span><span class="spcv">Wing A &amp; Wing B</span></div>
+        <div class="spcr"><span class="spck">RERA</span><span class="spcv">MahaRERA Registered</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gal-section rv" id="gallery">
+  <div class="gal-header">
+    <div>
+      <div class="gal-sub">&#128247; Project Gallery</div>
+      <div class="gal-title">Shelter <em>One</em></div>
+    </div>
+    <button class="gal-view-btn" onclick="openGalLB()">
+      View All Photos &nbsp;
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+
+  <!-- Rotating showcase -->
+  <div class="gal-showcase" id="galShowcase" onclick="openGalLB()">
+    <img class="gal-showcase-img active" src="images/hero-evening.webp" alt="Evening Render" loading="eager">
+    <img class="gal-showcase-img" src="images/hero-day.webp" alt="Day View" loading="eager">
+    <img class="gal-showcase-img" src="images/hero-aerial.webp" alt="Aerial View" loading="lazy">
+    <img class="gal-showcase-img" src="images/hero-front.webp" alt="Front Elevation" loading="lazy">
+    <img class="gal-showcase-img" src="images/hero-aerial-right.webp" alt="Aerial — Right Wing" loading="lazy">
+    <img class="gal-showcase-img" src="images/hero-ground.webp" alt="Ground Level" loading="lazy">
+    <img class="gal-showcase-img" src="images/hero-podium-garden.webp" alt="Podium Garden" loading="lazy">
+    <img class="gal-showcase-img" src="images/hero-swimming.webp" alt="Swimming Pool" loading="lazy">
+    <img class="gal-showcase-img" src="images/hero-gazebo.webp" alt="Gazebo & Landscaping" loading="lazy">
+    <div class="gal-showcase-overlay"></div>
+    <div class="gal-showcase-bar">
+      <span class="gal-showcase-lbl" id="galLbl">Evening Render</span>
+      <span class="gal-showcase-count" id="galCount">1 / 9</span>
+    </div>
+    <div class="gal-progress" id="galProgress"></div>
+    <div class="gal-arr prev" onclick="event.stopPropagation();galStep(-1)">&#8249;</div>
+    <div class="gal-arr next" onclick="event.stopPropagation();galStep(1)">&#8250;</div>
+    <div class="gal-dots" id="galDots">
+      <div class="gal-dot act" onclick="event.stopPropagation();galGo(0)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(1)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(2)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(3)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(4)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(5)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(6)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(7)"></div>
+      <div class="gal-dot" onclick="event.stopPropagation();galGo(8)"></div>
+    </div>
+  </div>
+
+  <!-- Thumbnail strip -->
+  <div class="gal-thumbs" id="galThumbs">
+    <div class="gal-thumb act" onclick="galGo(0)">
+      <img src="images/hero-evening.webp" alt="Evening Render" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(1)">
+      <img src="images/hero-day.webp" alt="Day View" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(2)">
+      <img src="images/hero-aerial.webp" alt="Aerial View" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(3)">
+      <img src="images/hero-front.webp" alt="Front Elevation" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(4)">
+      <img src="images/hero-aerial-right.webp" alt="Aerial — Right Wing" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(5)">
+      <img src="images/hero-ground.webp" alt="Ground Level" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(6)">
+      <img src="images/hero-podium-garden.webp" alt="Podium Garden" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(7)">
+      <img src="images/hero-swimming.webp" alt="Swimming Pool" loading="lazy">
+    </div>
+    <div class="gal-thumb" onclick="galGo(8)">
+      <img src="images/hero-gazebo.webp" alt="Gazebo & Landscaping" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="amns" id="amenities">
+  <div class="rv">
+    <span class="stag">World-Class Living</span>
+    <h2 class="st">Resort-style <em>amenities</em><br>at your doorstep</h2>
+  </div>
+  <div class="amiw rv">
+    <img class="amig" src="images/shelter-one-amenities.jpg" alt="Amenities">
+    <div class="amov">
+      <div class="amcap">
+        <div class="amct">Life beyond <em>four walls</em></div>
+        <p class="amcs">From gazebo-lined garden walks to the shimmering pool, every amenity is designed to elevate your everyday.</p>
+      </div>
+    </div>
+  </div>
+  <div class="amgd">
+    <div class="amc rv"><span class="amci">&#127946;</span><div class="amcn">Swimming Pool</div><div class="amcd">Full-size pool with dedicated kids pool</div></div>
+    <div class="amc rv d1"><span class="amci">&#127947;</span><div class="amcn">Gymnasium</div><div class="amcd">Fully equipped modern fitness centre</div></div>
+    <div class="amc rv d2"><span class="amci">&#127968;</span><div class="amcn">Club House</div><div class="amcd">Premium community &amp; recreation space</div></div>
+    <div class="amc rv d3"><span class="amci">&#127795;</span><div class="amcn">Landscaped Garden</div><div class="amcd">50% open space with tree plantation</div></div>
+    <div class="amc rv"><span class="amci">&#127904;</span><div class="amcn">Children&rsquo;s Park</div><div class="amcd">Colourful &amp; safe play zone for kids</div></div>
+    <div class="amc rv d1"><span class="amci">&#127939;</span><div class="amcn">Jogging Track</div><div class="amcd">Dedicated track through landscaped paths</div></div>
+    <div class="amc rv d2"><span class="amci">&#127951;</span><div class="amcn">Net Cricket</div><div class="amcd">Practice pitch within the compound</div></div>
+    <div class="amc rv d3"><span class="amci">&#127807;</span><div class="amcn">Gazebo</div><div class="amcd">Elegant garden pavilion &amp; sit-outs</div></div>
+    <div class="amc rv"><span class="amci">&#127919;</span><div class="amcn">Indoor Games</div><div class="amcd">TT, Carrom &amp; more for all ages</div></div>
+    <div class="amc rv d1"><span class="amci">&#128116;</span><div class="amcn">Senior Sit-Out</div><div class="amcd">Peaceful corners for elderly residents</div></div>
+    <div class="amc rv d2"><span class="amci">&#128249;</span><div class="amcn">CCTV Security</div><div class="amcd">24/7 surveillance at gate &amp; parking</div></div>
+    <div class="amc rv d3"><span class="amci">&#128274;</span><div class="amcn">Video Door Phone</div><div class="amcd">Intercom with video for every unit</div></div>
+  </div>
+</section>
+
+<section class="section-block dark" id="brochure" style="padding:5rem 6%">
+  <div style="display:grid;grid-template-columns:1.1fr 1fr;gap:5rem;align-items:start">
+    <div class="rv">
+      <div style="font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem">&#128247; Free Download</div>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,3rem);font-weight:300;color:var(--cream);line-height:1.15;margin-bottom:1.2rem">Get the <em>official</em><br>project brochure</h2>
+      <p style="font-size:.82rem;line-height:1.8;color:rgba(250,246,236,.5);margin-bottom:1.5rem">Floor plans, specifications, location map, pricing guide and all project details — in one PDF.</p>
+      <div style="display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.5rem">
+        <div style="font-size:.74rem;color:rgba(250,246,236,.4)"><span style="color:var(--gold);margin-right:.5rem">&#10003;</span>Building Renders &amp; Floor Plans</div>
+        <div style="font-size:.74rem;color:rgba(250,246,236,.4)"><span style="color:var(--gold);margin-right:.5rem">&#10003;</span>Project Specifications</div>
+        <div style="font-size:.74rem;color:rgba(250,246,236,.4)"><span style="color:var(--gold);margin-right:.5rem">&#10003;</span>Location Map &amp; Connectivity</div>
+        <div style="font-size:.74rem;color:rgba(250,246,236,.4)"><span style="color:var(--gold);margin-right:.5rem">&#10003;</span>Amenities Detail</div>
+      </div>
+    </div>
+    <div class="rv d2">
+      <div style="font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem">Quick Enquiry</div>
+      <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--cream);font-weight:300;margin-bottom:1.5rem">Tell us about <em>yourself</em></h3>
+<div class="msf-wrap" id="msf-main">
+  <div class="msf-progress">
+    <div class="msf-step-dot active" id="msf-dot-1">1</div>
+    <div class="msf-step-line" id="msf-line-1"></div>
+    <div class="msf-step-dot" id="msf-dot-2">2</div>
+    <div class="msf-step-line" id="msf-line-2"></div>
+    <div class="msf-step-dot" id="msf-dot-3">3</div>
+    <div class="msf-step-line" id="msf-line-3"></div>
+    <div class="msf-step-dot" id="msf-dot-4">4</div>
+  </div>
+  <div class="msf-panel active" id="msf-p1">
+    <div class="msf-step-label">Step 1 of 4</div>
+    <div class="msf-step-title">Let&rsquo;s start with <em>your details</em></div>
+    <div class="msf-input-wrap"><label>Full Name</label>
+      <input class="msf-input" id="msf-name" type="text" placeholder="Rahul Sharma">
+      <div class="msf-err" id="msf-err-name">Please enter your full name</div></div>
+    <div class="msf-input-wrap"><label>Mobile Number</label>
+      <input class="msf-input" id="msf-phone" type="tel" placeholder="+91 98765 43210">
+      <div class="msf-err" id="msf-err-phone">Please enter a valid 10-digit number</div></div>
+    <div class="msf-btn-row"><button class="msf-next" onclick="msfNext(1)">Continue &nbsp;&#8594;</button></div>
+  </div>
+  <div class="msf-panel" id="msf-p2">
+    <div class="msf-step-label">Step 2 of 4</div>
+    <div class="msf-step-title">Which <em>project</em> interests you?</div>
+    <div class="msf-input-wrap"><label>Project</label>
+      <div class="msf-chips" id="msf-chips-project">
+        <div class="msf-chip sel" onclick="msfChip(this,'project')">Shelter One</div>
+        <div class="msf-chip " onclick="msfChip(this,'project')">Shelter Riverside</div>
+        <div class="msf-chip" onclick="msfChip(this,'project')">Both</div>
+        <div class="msf-chip" onclick="msfChip(this,'project')">Not Sure Yet</div>
+      </div></div>
+    <div class="msf-input-wrap"><label>Configuration</label>
+      <div class="msf-chips" id="msf-chips-config">
+        <div class="msf-chip sel" onclick="msfChip(this,'config')">1 BHK</div>
+        <div class="msf-chip" onclick="msfChip(this,'config')">2 BHK</div>
+        <div class="msf-chip" onclick="msfChip(this,'config')">3 BHK</div>
+        <div class="msf-chip" onclick="msfChip(this,'config')">Undecided</div>
+      </div></div>
+    <div class="msf-btn-row">
+      <button class="msf-back" onclick="msfBack(2)">&#8592; Back</button>
+      <button class="msf-next" onclick="msfNext(2)">Continue &nbsp;&#8594;</button>
+    </div>
+  </div>
+  <div class="msf-panel" id="msf-p3">
+    <div class="msf-step-label">Step 3 of 4</div>
+    <div class="msf-step-title">What&rsquo;s your <em>budget range?</em></div>
+    <div class="msf-chips" id="msf-chips-budget">
+      <div class="msf-chip" onclick="msfChip(this,'budget')">Under &#8377;35L</div>
+      <div class="msf-chip sel" onclick="msfChip(this,'budget')">&#8377;35L &ndash; &#8377;50L</div>
+      <div class="msf-chip" onclick="msfChip(this,'budget')">&#8377;50L &ndash; &#8377;70L</div>
+      <div class="msf-chip" onclick="msfChip(this,'budget')">&#8377;70L &ndash; &#8377;1Cr</div>
+      <div class="msf-chip" onclick="msfChip(this,'budget')">Above &#8377;1Cr</div>
+    </div>
+    <div class="msf-btn-row">
+      <button class="msf-back" onclick="msfBack(3)">&#8592; Back</button>
+      <button class="msf-next" onclick="msfNext(3)">Continue &nbsp;&#8594;</button>
+    </div>
+  </div>
+  <div class="msf-panel" id="msf-p4">
+    <div class="msf-step-label">Step 4 of 4</div>
+    <div class="msf-step-title">When are you <em>looking to buy?</em></div>
+    <div class="msf-chips" id="msf-chips-timeline">
+      <div class="msf-chip sel" onclick="msfChip(this,'timeline')">Immediately</div>
+      <div class="msf-chip" onclick="msfChip(this,'timeline')">Within 3 Months</div>
+      <div class="msf-chip" onclick="msfChip(this,'timeline')">Within 6 Months</div>
+      <div class="msf-chip" onclick="msfChip(this,'timeline')">Just Exploring</div>
+    </div>
+    <div class="msf-btn-row">
+      <button class="msf-back" onclick="msfBack(4)">&#8592; Back</button>
+      <button class="msf-next" id="msf-submit-btn" onclick="msfSubmit()">
+        <span id="msf-submit-txt">Submit Enquiry &#8594;</span>
+        <span id="msf-submit-spin" style="display:none">Sending&hellip;</span>
+      </button>
+    </div>
+  </div>
+  <div class="msf-success" id="msf-success">
+    <div class="msf-success-ico">&#127968;</div>
+    <div class="msf-success-title">Thank <em>you!</em></div>
+    <div class="msf-success-sub">Our team will reach out shortly.<br>Meanwhile you can contact us directly:</div>
+    <div style="display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap">
+      <a href="tel:+919145555559" class="bg" style="font-size:.62rem">&#128222; Call Now</a>
+      <a href="https://wa.me/919145555559" class="bo" style="font-size:.62rem">WhatsApp</a>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<section class="locs" id="location">
+  <div class="loci">
+    <div class="rv">
+      <span class="stag">Prime Location</span>
+      <h2 class="st">Unmatched <em>connectivity</em><br>in Navi Mumbai</h2>
+      <div class="sdv"></div>
+      <p class="sp" style="margin-bottom:2rem">Taloja Phase 2 sits at the crossroads of Navi Mumbai&rsquo;s most exciting growth corridors &mdash; minutes from the metro, expressway, and the upcoming international airport.</p>
+      <div class="locg">
+        <div>
+          <div class="lochd">&#128647; Transport</div>
+          <ul class="locl">
+            <li>Taloja Railway Stn <span>5 min</span></li>
+            <li>Pendhar Metro (Ph-II) <span>Walking</span></li>
+            <li>Kharghar Station <span>15 min</span></li>
+            <li>NH48 Highway <span>3 min</span></li>
+            <li>Mumbai-Pune Expressway <span>10 min</span></li>
+            <li>Navi Mumbai Airport <span>20 min</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="lochd">&#127973; Healthcare</div>
+          <ul class="locl">
+            <li>Rana NX Hospital <span>5 min</span></li>
+            <li>Apex Hospital <span>5 min</span></li>
+            <li>Tata Memorial <span>10 min</span></li>
+            <li>MGM Kalamboli <span>15 min</span></li>
+            <li>Apollo Hospital <span>25 min</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="lochd">&#127979; Education</div>
+          <ul class="locl">
+            <li>DAV International <span>10 min</span></li>
+            <li>Apeejay School <span>10 min</span></li>
+            <li>Ryan International <span>15 min</span></li>
+            <li>NMIMS Campus <span>10 min</span></li>
+            <li>DY Patil University <span>20 min</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="lochd">&#127949; Shopping</div>
+          <ul class="locl">
+            <li>D-Mart Hypermarket <span>10 min</span></li>
+            <li>Central Park <span>10 min</span></li>
+            <li>Orion Mall Panvel <span>20 min</span></li>
+            <li>Seawoods Grand Central <span>25 min</span></li>
+            <li>Inorbit Mall <span>30 min</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="mapcard rv d2">
+      <div class="maptitle">Shelter One Location</div>
+      <div class="mapwrap">
+        <div class="maptop"></div>
+        <div class="mappin">
+          <span style="font-size:1rem">&#128205;</span>
+          <div><div class="mn">Shelter One</div><div class="ms">Taloja Phase 2, Navi Mumbai</div></div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17479.33277530414!2d73.0995525!3d19.07154675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7eb123f94ef53%3A0x77240d6d593f7734!2sShelter%20One!5e1!3m2!1sen!2sin!4v1772878790558!5m2!1sen!2sin" width="100%" height="340" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Shelter One Map"></iframe>
+        <a href="https://maps.app.goo.gl/SVWp6ekKFnuGV7Be9" target="_blank" rel="noopener" class="mapbtn">&#x2197; Open in Google Maps</a>
+      </div>
+      <div class="locq">
+        <div class="lqi"><div class="lqn">5 min</div><div class="lql">Railway Station</div></div>
+        <div class="lqi"><div class="lqn">20 min</div><div class="lql">Int&rsquo;l Airport</div></div>
+        <div class="lqi"><div class="lqn">3 min</div><div class="lql">NH48 Highway</div></div>
+        <div class="lqi"><div class="lqn">Walk</div><div class="lql">Metro Station</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tsts" id="testimonials">
+  <div class="rv"><span class="stag">Happy Residents</span><h2 class="st">What our <em>families</em><br>say about us</h2></div>
+  <div class="tstg">
+    <div class="tc rv"><div class="tcs">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="tct">&ldquo;Shelter Group delivered our flat on time with exceptional quality. The amenities are exactly as promised &mdash; the swimming pool and garden are beautifully maintained.&rdquo;</p><div class="tcn">Ramesh &amp; Priya Sharma</div><div class="tcl">Shelter Riverside, Taloja</div></div>
+    <div class="tc rv d1"><div class="tcs">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="tct">&ldquo;From the first site visit to final possession, the team was professional and transparent. Construction quality is excellent and the location is perfect for our family.&rdquo;</p><div class="tcn">Santosh Patil</div><div class="tcl">Shelter Paradise, Kharghar</div></div>
+    <div class="tc rv d2"><div class="tcs">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="tct">&ldquo;Best investment decision we made. Connectivity from Taloja improves every year and property values have grown significantly. Highly recommend Shelter Group.&rdquo;</p><div class="tcn">Vinod &amp; Sunita Mehta</div><div class="tcl">Shelter Riverside, Taloja</div></div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="ftg">
+    <div>
+      <img src="images/shelter-logo.png" alt="Shelter Group" style="height:180px;width:auto;display:block;background:#fff;padding:10px 20px;border-radius:8px;margin-bottom:1.2rem">
+      <div class="fbt" style="margin-top:.4rem">Since 1999 &middot; Navi Mumbai</div>
+      <p class="fba">One of the leading real estate developers in Navi Mumbai and Thane, building premium homes and vibrant communities for over 25 years. Trusted by 5000+ happy families.</p>
+    </div>
+    <div>
+      <div class="fch">Projects</div>
+      <ul class="fll"><li><a href="#s1">Shelter One (New Launch)</a></li><li><a href="#">Shelter Riverside</a></li><li><a href="#">Shelter Paradise</a></li></ul>
+    </div>
+    <div>
+      <div class="fch">Quick Links</div>
+      <ul class="fll"><li><a href="#about">About Us</a></li><li><a href="#amenities">Amenities</a></li><li><a href="#brochure">Download Brochure</a></li><li><a href="#location">Location</a></li><li><a href="#contact">Contact</a></li></ul>
+    </div>
+    <div>
+      <div class="fch">Contact</div>
+      <ul class="fll"><li><a href="tel:+919145555559">+91 91455 55559</a></li><li><a href="tel:+919145555558">+91 91455 55558</a></li><li><a href="/cdn-cgi/l/email-protection#9bf2f5fdf4dbe8f3fef7effee9f9eef2f7fffee9e8b5f8f4b5f2f5"><span class="__cf_email__" data-cfemail="50393e363f102338353c2435223225393c343522237e333f7e393e">[email&#160;protected]</span></a></li><li><a href="https://shelterbuilders.co.in">shelterbuilders.co.in</a></li></ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcpy">&copy; 2025 Shelter Group. All rights reserved. | Navi Mumbai, Maharashtra</div>
+    <div class="fdis">All images are artist impressions. Prices &amp; availability subject to change. Please contact our sales team for the latest details.</div>
+  </div>
+</footer>
+
+
+
+
+<script>
+var BDATA="images/shelter-one-brochure.pdf";
+function doDownload(){
+  var n=document.getElementById('fn').value.trim();
+  var p=document.getElementById('fp').value.trim();
+  var e=document.getElementById('fe').value.trim();
+  var ok=true;
+  document.querySelectorAll('.ferr').forEach(function(x){x.classList.remove('show');});
+  document.querySelectorAll('.fg input, .fg select').forEach(function(x){x.style.borderColor='';});
+  if(!n||n.length<2){document.getElementById('en').classList.add('show');document.getElementById('fn').style.borderColor='#ff6b6b';ok=false;}
+  var pc=p.replace(/[\s\-\+]/g,'');
+  if(!pc||!/^\d{10,12}$/.test(pc)){document.getElementById('ep').classList.add('show');document.getElementById('fp').style.borderColor='#ff6b6b';ok=false;}
+  if(!e||!/^[^@]+@[^@]+\.[^@]+$/.test(e)){document.getElementById('ee').classList.add('show');document.getElementById('fe').style.borderColor='#ff6b6b';ok=false;}
+  if(!ok)return;
+  // Submit lead to Netlify Forms
+  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},
+    body:new URLSearchParams({'form-name':'shelter-one-lead','name':n,'phone':p,'email':e,'project':'Shelter One','source':'Brochure Download'}).toString()
+  }).catch(function(){});
+  var btn=document.getElementById('dlbtn');
+  btn.disabled=true;
+  btn.innerHTML='<span style="display:inline-block;width:18px;height:18px;border:2px solid rgba(12,10,6,.3);border-top-color:var(--dark);border-radius:50%;animation:spin .8s linear infinite"></span> Preparing...';
+  setTimeout(function(){
+    var a=document.createElement('a');
+    a.href=BDATA;a.download='ShelterOne_Brochure.pdf';
+    document.body.appendChild(a);a.click();document.body.removeChild(a);
+    document.getElementById('manualdl').href=BDATA;
+    document.getElementById('manualdl').download='ShelterOne_Brochure.pdf';
+    document.getElementById('formWrap').style.display='none';
+    document.getElementById('sucbox').classList.add('show');
+  },1200);
+}
+window.addEventListener('scroll',function(){document.getElementById('nav').classList.toggle('scrolled',scrollY>60);});
+var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target);}});},{threshold:.1});
+document.querySelectorAll('.rv').forEach(function(el){obs.observe(el);});
+function toggleNav(){
+  document.getElementById('mob-nav').classList.toggle('open');
+}
+document.querySelectorAll('.nlinks a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nl').style.cssText='';});});
+function openLB(src){document.getElementById('lbimg').src=src;document.getElementById('lb').classList.add('open');}
+function closeLB(){document.getElementById('lb').classList.remove('open');}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLB();});
+var secs=document.querySelectorAll('section[id]');
+window.addEventListener('scroll',function(){
+  var cur='';
+  secs.forEach(function(s){if(scrollY>=s.offsetTop-120)cur=s.id;});
+  document.querySelectorAll('.nlinks a').forEach(function(a){a.classList.toggle('act',a.getAttribute('href')==='#'+cur);});
+});
+
+/* ── HERO IMAGE CYCLING ── */
+(function(){
+  var slides = document.querySelectorAll('.hbg-slide');
+  var cur = 0;
+  if(!slides.length) return;
+  function nextHero(){
+    slides[cur].classList.remove('active');
+    slides[cur].style.opacity = '0';
+    slides[cur].style.zIndex = '';
+    cur = (cur + 1) % slides.length;
+    slides[cur].classList.add('active');
+    slides[cur].style.opacity = '1';
+    slides[cur].style.zIndex = '1';
+  }
+  setInterval(nextHero, 4000);
+})();
+
+
+/* ── GALLERY SHOWCASE JS ── */
+var GAL_IMGS = [{'src': 'images/hero-evening.webp', 'lbl': 'Evening Render'}, {'src': 'images/hero-day.webp', 'lbl': 'Day View'}, {'src': 'images/hero-aerial.webp', 'lbl': 'Aerial View'}, {'src': 'images/hero-front.webp', 'lbl': 'Front Elevation'}, {'src': 'images/hero-aerial-right.webp', 'lbl': 'Aerial — Right Wing'}, {'src': 'images/hero-ground.webp', 'lbl': 'Ground Level'}, {'src': 'images/hero-podium-garden.webp', 'lbl': 'Podium Garden'}, {'src': 'images/hero-swimming.webp', 'lbl': 'Swimming Pool'}, {'src': 'images/hero-gazebo.webp', 'lbl': 'Gazebo & Landscaping'}];
+var galCur = 0, galTotal = GAL_IMGS.length, galTimer, galProgTimer, galProgVal = 0;
+var GAL_DUR = 4000;
+
+function galRender() {
+  var imgs = document.querySelectorAll('.gal-showcase-img');
+  var dots = document.querySelectorAll('#galDots .gal-dot');
+  var thumbs = document.querySelectorAll('#galThumbs .gal-thumb');
+  imgs.forEach(function(img, i) { img.classList.toggle('active', i === galCur); });
+  dots.forEach(function(d, i) { d.classList.toggle('act', i === galCur); });
+  thumbs.forEach(function(th, i) { th.classList.toggle('act', i === galCur); });
+  document.getElementById('galLbl').textContent = GAL_IMGS[galCur].lbl;
+  document.getElementById('galCount').textContent = (galCur + 1) + ' / ' + galTotal;
+  // Scroll thumb strip only (not the page) using scrollLeft
+  var strip = document.getElementById('galThumbs');
+  var activeThumb = document.querySelector('#galThumbs .gal-thumb.act');
+  if (strip && activeThumb) {
+    var thumbLeft = activeThumb.offsetLeft - strip.offsetLeft;
+    var stripCenter = strip.offsetWidth / 2;
+    var thumbCenter = activeThumb.offsetWidth / 2;
+    strip.scrollTo({left: thumbLeft - stripCenter + thumbCenter, behavior:'smooth'});
+  }
+}
+function galStep(dir) {
+  galCur = (galCur + dir + galTotal) % galTotal;
+  galRender();
+  galRestart();
+}
+function galGo(n) {
+  galCur = n;
+  galRender();
+  galRestart();
+}
+function galRestart() {
+  clearInterval(galTimer);
+  clearInterval(galProgTimer);
+  galProgVal = 0;
+  var prog = document.getElementById('galProgress');
+  if (prog) { prog.style.transition = 'none'; prog.style.width = '0%'; }
+  setTimeout(function() {
+    if (prog) { prog.style.transition = 'width ' + GAL_DUR + 'ms linear'; prog.style.width = '100%'; }
+  }, 50);
+  galTimer = setInterval(function() { galStep(1); }, GAL_DUR);
+}
+function openGalLB() {
+  document.getElementById('galLB').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeGalLB() {
+  document.getElementById('galLB').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeGalLB();
+  if (document.getElementById('galLB').classList.contains('open')) return;
+  if (e.key === 'ArrowLeft') galStep(-1);
+  if (e.key === 'ArrowRight') galStep(1);
+});
+// Touch swipe on showcase
+(function() {
+  var el = document.getElementById('galShowcase'), sx = 0;
+  if (!el) return;
+  el.addEventListener('touchstart', function(e) { sx = e.touches[0].clientX; }, {passive:true});
+  el.addEventListener('touchend', function(e) {
+    var dx = e.changedTouches[0].clientX - sx;
+    if (Math.abs(dx) > 40) { e.preventDefault(); galStep(dx < 0 ? 1 : -1); }
+  }, {passive:true});
+})();
+galRestart();
+
+</script>
+<style>
+.hbg-slide{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;opacity:0!important;transition:opacity 1.2s ease-in-out!important;display:block!important}
+.hbg-slide.active{opacity:1!important;z-index:1!important}
+</style>
+</body>
+</html>

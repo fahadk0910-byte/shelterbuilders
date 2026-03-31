@@ -576,6 +576,12 @@ html,body{overflow-x:hidden;max-width:100%}
 .msf-success-sub{font-size:.8rem;color:rgba(250,246,236,.45);margin-bottom:1.5rem;line-height:1.7}
 @media(max-width:480px){.msf-wrap{padding:1.8rem 1.4rem}.msf-chips{gap:.4rem}.msf-chip{font-size:.65rem;padding:.5rem .9rem}}
 
+
+@media(max-width:768px){
+  #brochure>div>div:first-child,
+  #brochure>div>div:last-child{width:100%!important}
+  #brochure>div{grid-template-columns:1fr!important;gap:2.5rem!important}
+}
 </style>
 
 </head>
@@ -601,7 +607,6 @@ html,body{overflow-x:hidden;max-width:100%}
     <li><a href="index.html">&#8592; Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#overview">Shelter One</a></li>
-    <li><a href="#amenities">Amenities</a></li>
     <li><a href="#gallery">Gallery</a></li>
     <li><a href="#brochure">Brochure</a></li>
     <li><a href="#location">Location</a></li>
@@ -651,6 +656,7 @@ html,body{overflow-x:hidden;max-width:100%}
       <p style="font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,246,236,.4);margin-bottom:1.5rem">Taloja Phase 2, Navi Mumbai</p>
       <div class="sdv"></div>
       <p class="sp" style="margin-bottom:1rem">A landmark residential project offering premium 1 BHK &amp; 2 BHK homes in one of Navi Mumbai&rsquo;s fastest growing corridors, with 50% open landscaped spaces.</p>
+      
       <div class="hls">
         <div class="hl"><span class="hli">&#127946;</span><span class="hlt">Swimming Pool + Kids Pool</span></div>
         <div class="hl"><span class="hli">&#127947;</span><span class="hlt">Equipped Gymnasium</span></div>
@@ -666,7 +672,7 @@ html,body{overflow-x:hidden;max-width:100%}
         <div class="hl"><span class="hli">&#127795;</span><span class="hlt">50% Open Space</span></div>
       </div>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:.5rem">
-        <a href="#contact" class="bg">Book Site Visit</a>
+        <a href="shelter-one.html#brochure" class="bg">Book Site Visit</a>
         <a href="#brochure" class="bo">&#x2B07; Download Brochure</a>
       </div>
     </div>
@@ -762,35 +768,7 @@ html,body{overflow-x:hidden;max-width:100%}
   </div>
 </section>
 
-<section class="amns" id="amenities">
-  <div class="rv">
-    <span class="stag">World-Class Living</span>
-    <h2 class="st">Resort-style <em>amenities</em><br>at your doorstep</h2>
-  </div>
-  <div class="amiw rv">
-    <img loading="lazy" decoding="async" class="amig" src="images/shelter-one-amenities.jpg" alt="Amenities">
-    <div class="amov">
-      <div class="amcap">
-        <div class="amct">Life beyond <em>four walls</em></div>
-        <p class="amcs">From gazebo-lined garden walks to the shimmering pool, every amenity is designed to elevate your everyday.</p>
-      </div>
-    </div>
-  </div>
-  <div class="amgd">
-    <div class="amc rv"><span class="amci">&#127946;</span><div class="amcn">Swimming Pool</div><div class="amcd">Full-size pool with dedicated kids pool</div></div>
-    <div class="amc rv d1"><span class="amci">&#127947;</span><div class="amcn">Gymnasium</div><div class="amcd">Fully equipped modern fitness centre</div></div>
-    <div class="amc rv d2"><span class="amci">&#127968;</span><div class="amcn">Club House</div><div class="amcd">Premium community &amp; recreation space</div></div>
-    <div class="amc rv d3"><span class="amci">&#127795;</span><div class="amcn">Landscaped Garden</div><div class="amcd">50% open space with tree plantation</div></div>
-    <div class="amc rv"><span class="amci">&#127904;</span><div class="amcn">Children&rsquo;s Park</div><div class="amcd">Colourful &amp; safe play zone for kids</div></div>
-    <div class="amc rv d1"><span class="amci">&#127939;</span><div class="amcn">Jogging Track</div><div class="amcd">Dedicated track through landscaped paths</div></div>
-    <div class="amc rv d2"><span class="amci">&#127951;</span><div class="amcn">Net Cricket</div><div class="amcd">Practice pitch within the compound</div></div>
-    <div class="amc rv d3"><span class="amci">&#127807;</span><div class="amcn">Gazebo</div><div class="amcd">Elegant garden pavilion &amp; sit-outs</div></div>
-    <div class="amc rv"><span class="amci">&#127919;</span><div class="amcn">Indoor Games</div><div class="amcd">TT, Carrom &amp; more for all ages</div></div>
-    <div class="amc rv d1"><span class="amci">&#128116;</span><div class="amcn">Senior Sit-Out</div><div class="amcd">Peaceful corners for elderly residents</div></div>
-    <div class="amc rv d2"><span class="amci">&#128249;</span><div class="amcn">CCTV Security</div><div class="amcd">24/7 surveillance at gate &amp; parking</div></div>
-    <div class="amc rv d3"><span class="amci">&#128274;</span><div class="amcn">Video Door Phone</div><div class="amcd">Intercom with video for every unit</div></div>
-  </div>
-</section>
+
 
 <section class="section-block dark" id="brochure" style="padding:5rem 6%">
   <div style="display:grid;grid-template-columns:1.1fr 1fr;gap:5rem;align-items:start">
@@ -989,11 +967,11 @@ html,body{overflow-x:hidden;max-width:100%}
     </div>
     <div>
       <div class="fch">Projects</div>
-      <ul class="fll"><li><a href="#s1">Shelter One (New Launch)</a></li><li><a href="#">Shelter Riverside</a></li><li><a href="#">Shelter Paradise</a></li></ul>
+      <ul class="fll"><li><a href="shelter-one.html">Shelter One (New Launch)</a></li><li><a href="riverside.html">Shelter Riverside</a></li></ul>
     </div>
     <div>
       <div class="fch">Quick Links</div>
-      <ul class="fll"><li><a href="#about">About Us</a></li><li><a href="#amenities">Amenities</a></li><li><a href="#brochure">Download Brochure</a></li><li><a href="#location">Location</a></li><li><a href="#contact">Contact</a></li></ul>
+      <ul class="fll"><li><a href="index.html#about">About Us</a></li><li><a href="shelter-one.html#amenities">Amenities</a></li><li><a href="shelter-one.html#brochure">Download Brochure</a></li><li><a href="shelter-one.html#location">Location</a></li><li><a href="index.html#contact">Contact</a></li></ul>
     </div>
     <div>
       <div class="fch">Contact</div>
@@ -1024,8 +1002,8 @@ function doDownload(){
   if(!e||!/^[^@]+@[^@]+\.[^@]+$/.test(e)){document.getElementById('ee').classList.add('show');document.getElementById('fe').style.borderColor='#ff6b6b';ok=false;}
   if(!ok)return;
   // Submit lead to Netlify Forms
-  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},
-    body:new URLSearchParams({'form-name':'shelter-one-lead','name':n,'phone':p,'email':e,'project':'Shelter One','source':'Brochure Download'}).toString()
+  fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({access_key:'YOUR_WEB3FORMS_KEY',subject:'Brochure Download — Shelter One',from_name:'Shelter Group Website',name:n,phone:p,email:e,project:'Shelter One',source:'Brochure Download'})
   }).catch(function(){});
   var btn=document.getElementById('dlbtn');
   btn.disabled=true;

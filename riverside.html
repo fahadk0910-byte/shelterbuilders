@@ -583,7 +583,6 @@ footer{background:var(--dark2);padding:4rem 6% 2rem;border-top:1px solid rgba(20
       <ul class="fll">
         <li><a href="shelter-one.html">Shelter One (New Launch)</a></li>
         <li><a href="riverside.html">Shelter Riverside</a></li>
-        <li><a href="paradise.html">Shelter Paradise</a></li>
         <li><a href="projects.html">All Projects</a></li>
       </ul>
     </div>
@@ -635,8 +634,8 @@ function submitBForm(){
     return;
   }
   // Submit lead to Netlify Forms
-  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},
-    body:new URLSearchParams({'form-name':'shelter-riverside-lead','name':name,'phone':phone,'email':email,'project':'Shelter Riverside','source':'Brochure Download'}).toString()
+  fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({access_key:'YOUR_WEB3FORMS_KEY',subject:'Brochure Download — Shelter Riverside',from_name:'Shelter Group Website',name:name,phone:phone,email:email,project:'Shelter Riverside',source:'Brochure Download'})
   }).catch(function(){});
   document.getElementById('btn-txt').style.display='none';
   document.getElementById('btn-spin').style.display='inline';

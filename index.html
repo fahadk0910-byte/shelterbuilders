@@ -710,7 +710,7 @@ html,body{overflow-x:hidden;max-width:100%}
 </form>
 
 <nav id="nav">
-  <a href="#" class="nl">
+  <a href="index.html" class="nl">
     <img src="images/shelter-logo.png" alt="Shelter Group" class="nav-logo">
   </a>
   <ul class="nlinks" id="nl">
@@ -997,7 +997,7 @@ html,body{overflow-x:hidden;max-width:100%}
     </div>
     <div>
       <div class="fch">Projects</div>
-      <ul class="fll"><li><a href="#s1">Shelter One (New Launch)</a></li><li><a href="#">Shelter Riverside</a></li><li><a href="#">Shelter Paradise</a></li></ul>
+      <ul class="fll"><li><a href="shelter-one.html">Shelter One (New Launch)</a></li><li><a href="riverside.html">Shelter Riverside</a></li></ul>
     </div>
     <div>
       <div class="fch">Quick Links</div>
@@ -1035,8 +1035,8 @@ function doDownload(){
   if(!e||!/^[^@]+@[^@]+\.[^@]+$/.test(e)){document.getElementById('ee').classList.add('show');document.getElementById('fe').style.borderColor='#ff6b6b';ok=false;}
   if(!ok)return;
   // Submit lead to Netlify Forms
-  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},
-    body:new URLSearchParams({'form-name':'shelter-one-lead','name':n,'phone':p,'email':e,'project':'Shelter One','source':'Brochure Download'}).toString()
+  fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({access_key:'YOUR_WEB3FORMS_KEY',subject:'Brochure Download — Shelter One',from_name:'Shelter Group Website',name:n,phone:p,email:e,project:'Shelter One',source:'Brochure Download'})
   }).catch(function(){});
   var btn=document.getElementById('dlbtn');
   btn.disabled=true;
@@ -1137,16 +1137,18 @@ function msfSubmit(){
   var selConfig = (document.querySelector('#msf-chips-config .sel') || {innerText:msfData.config}).innerText;
   var selBudget = (document.querySelector('#msf-chips-budget .sel') || {innerText:msfData.budget}).innerText;
   var selTimeline = (document.querySelector('#msf-chips-timeline .sel') || {innerText:msfData.timeline}).innerText;
-  fetch('/', {method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'},
-    body: new URLSearchParams({
-      'form-name':'shelter-enquiry',
-      'name': msfData.name,
-      'phone': msfData.phone,
-      'project': selProject,
-      'config': selConfig,
-      'budget': selBudget,
-      'timeline': selTimeline
-    }).toString()
+  fetch('https://api.web3forms.com/submit', {method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({
+      access_key:'YOUR_WEB3FORMS_KEY',
+      subject:'New Enquiry — Shelter Group',
+      from_name:'Shelter Group Website',
+      name: msfData.name,
+      phone: msfData.phone,
+      project: selProject,
+      config: selConfig,
+      budget: selBudget,
+      timeline: selTimeline
+    })
   }).catch(function(){});
   setTimeout(function(){
     document.getElementById('msf-p4').classList.remove('active');

@@ -525,7 +525,7 @@ html,body{overflow-x:hidden;max-width:100%}
 
 /* ── HERO ── */
 .hero{position:relative;height:100vh;min-height:600px;overflow:hidden;background:#0C0A06}
-.hbg-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block}
+.hbg-slide{will-change:opacity;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease-in-out;display:block}
 .hbg-slide.active{opacity:1;z-index:1}
 .hov{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(12,10,6,.45) 0%,rgba(12,10,6,.2) 40%,rgba(12,10,6,.75) 80%,rgba(12,10,6,.97) 100%),linear-gradient(90deg,rgba(12,10,6,.7) 0%,transparent 60%)}
 .hbody{position:relative;z-index:3;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 6% 6rem;max-width:800px}
@@ -554,7 +554,7 @@ html,body{overflow-x:hidden;max-width:100%}
   
 
 .hero{position:relative;height:100vh;min-height:600px;overflow:hidden;background:#0C0A06}
-.hbg-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.4s ease-in-out;display:block;z-index:0}
+.hbg-slide{will-change:opacity;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.4s ease-in-out;display:block;z-index:0}
 .hov{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(12,10,6,.4) 0%,rgba(12,10,6,.15) 40%,rgba(12,10,6,.7) 80%,rgba(12,10,6,.97) 100%),linear-gradient(90deg,rgba(12,10,6,.65) 0%,transparent 60%)}
 .hbody{position:relative;z-index:3;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 6% 6rem;max-width:800px}
 .hscr{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);z-index:3}
@@ -805,7 +805,7 @@ html,body{overflow-x:hidden;max-width:100%}
     <!-- Shelter One Card -->
     <a href="shelter-one.html" style="text-decoration:none;display:block;background:rgba(250,246,236,.02);border:1px solid rgba(200,151,26,.12);border-radius:8px;overflow:hidden;transition:transform .3s,border-color .3s;cursor:pointer" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(200,151,26,.4)'" onmouseout="this.style.transform='';this.style.borderColor='rgba(200,151,26,.12)'">
       <div style="position:relative;aspect-ratio:16/9;overflow:hidden">
-        <img src="images/hero-evening.webp" alt="Shelter One" style="width:100%;height:100%;object-fit:cover;transition:transform .6s;filter:brightness(.85)" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''">
+        <img loading="lazy" decoding="async" src="images/hero-evening.webp" alt="Shelter One" style="width:100%;height:100%;object-fit:cover;transition:transform .6s;filter:brightness(.85)" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''">
         <div style="position:absolute;top:1rem;left:1rem;background:var(--gold);color:var(--dark);font-size:.52rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:.35rem .8rem;border-radius:3px">New Launch</div>
         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(12,10,6,.8) 0%,transparent 50%)"></div>
       </div>
@@ -825,7 +825,7 @@ html,body{overflow-x:hidden;max-width:100%}
     <!-- Riverside Card -->
     <a href="riverside.html" style="text-decoration:none;display:block;background:rgba(250,246,236,.02);border:1px solid rgba(200,151,26,.12);border-radius:8px;overflow:hidden;transition:transform .3s,border-color .3s;cursor:pointer" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(200,151,26,.4)'" onmouseout="this.style.transform='';this.style.borderColor='rgba(200,151,26,.12)'">
       <div style="position:relative;aspect-ratio:16/9;overflow:hidden">
-        <img src="images/riverside-building.jpg" alt="Shelter Riverside" style="width:100%;height:100%;object-fit:cover;transition:transform .6s;filter:brightness(.85)" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''">
+        <img loading="lazy" decoding="async" src="images/riverside-building.jpg" alt="Shelter Riverside" style="width:100%;height:100%;object-fit:cover;transition:transform .6s;filter:brightness(.85)" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform=''">
         <div style="position:absolute;top:1rem;left:1rem;background:rgba(255,255,255,.15);backdrop-filter:blur(8px);color:#fff;font-size:.52rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:.35rem .8rem;border-radius:3px;border:1px solid rgba(255,255,255,.3)">Ready Possession</div>
         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(12,10,6,.8) 0%,transparent 50%)"></div>
       </div>
@@ -1015,7 +1015,7 @@ html,body{overflow-x:hidden;max-width:100%}
 </footer>
 
 <div id="lb" style="position:fixed;inset:0;z-index:9999;background:rgba(12,10,6,.95);display:none;align-items:center;justify-content:center" onclick="closeLB()">
-  <img id="lbimg" src="" alt="" style="max-width:92%;max-height:92%;object-fit:contain;border-radius:6px">
+  <img loading="lazy" decoding="async" id="lbimg" src="" alt="" style="max-width:92%;max-height:92%;object-fit:contain;border-radius:6px">
 </div>
 
 

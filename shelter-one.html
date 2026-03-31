@@ -768,7 +768,7 @@ html,body{overflow-x:hidden;max-width:100%}
     <h2 class="st">Resort-style <em>amenities</em><br>at your doorstep</h2>
   </div>
   <div class="amiw rv">
-    <img class="amig" src="images/shelter-one-amenities.jpg" alt="Amenities">
+    <img loading="lazy" decoding="async" class="amig" src="images/shelter-one-amenities.jpg" alt="Amenities">
     <div class="amov">
       <div class="amcap">
         <div class="amct">Life beyond <em>four walls</em></div>
@@ -1148,7 +1148,7 @@ galRestart();
 
 </script>
 <style>
-.hbg-slide{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;opacity:0!important;transition:opacity 1.2s ease-in-out!important;display:block!important}
+.hbg-slide{will-change:opacity;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;opacity:0!important;transition:opacity 1.2s ease-in-out!important;display:block!important}
 .hbg-slide.active{opacity:1!important;z-index:1!important}
 </style>
 </body>
